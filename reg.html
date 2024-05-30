@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    
+        <h1>Event Registration</h1>
+   
+    <main>
+        <section class="registration-container">
+            <form class="registration-form">
+                <h2>Registration</h2>
+                <div class="input">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="input">
+                    <label for="event">Select Event</label>
+                    <select id="event" name="event" required>
+                        <option value="">--Please choose an event--</option>
+                        <option value="gdsc_event">GDSC Event</option>
+                        <option value="hack_sist">Hack SIST</option>
+                        <option value="microsoft_workshop">Microsoft Workshop</option>
+                        <option value="eco_club_drive">Eco Club Drive</option>
+                        <option value="rotary_blood_donation">Rotary Blood Donation</option>
+                    </select>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
